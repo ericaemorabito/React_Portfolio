@@ -1,9 +1,6 @@
 //import Navigation from "../Navigation";
 import './index.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faFolderOpen } from '@fortawesome/free-solid-svg-icons';
-// import { faGlobe } from '@fortawesome/free-solid-svg-icons';
-// import { faMobile } from '@fortawesome/free-solid-svg-icons';
 
 function Header() {
   return (

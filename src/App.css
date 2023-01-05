@@ -1,6 +1,9 @@
 :root {
-  --dark-blue-background: rgba(7,20,39,255);
-  --green-text: rgba(75,200,176,255);
+  --dark-blue-background: #081426;
+  --green-text: #60ffd9;;
+  /* --green-text: rgba(75,200,176,255); */
+  --dark-navy: #0e1b33;
+  --faded-green: rgba(75,200,176,255, 0.5);
   --blue-text: #b0cdf1;
   --grey-text: #a9a297;
 }
