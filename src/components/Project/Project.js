@@ -1,3 +1,5 @@
+import './index.css'
+
 function Project () {
   return (
     <div> Project </div>

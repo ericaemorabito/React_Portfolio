@@ -1,3 +1,5 @@
+import './index.css'
+
 function Contact () {
   return (
     <div> Contact </div>

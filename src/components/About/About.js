@@ -2,7 +2,7 @@
 //TODO: Add profile picture correctly
 //TODO: styling
 
-import './about.css'
+import './index.css'
 
 function About () {
   return (

@@ -1,8 +1,8 @@
-import Header from './components/Header';
-import About from './components/About';
-import Project from './components/Project';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Header from './components/Header/Header';
+import About from './components/About/About';
+import Project from './components/Project/Project';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 import './App.css';
 
 function App() {
