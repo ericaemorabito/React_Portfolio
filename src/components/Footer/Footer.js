@@ -1,9 +1,20 @@
 import './index.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-function Footer () {
+function Footer() {
 
   return (
-    <div className='footer'> Footer</div>
+    <div className='footer'>
+      <p>Designed & Built by Erica Morabito</p>
+      <div className='footer-icons'>
+        <a href="https://github.com/ericaemorabito"rel="noreferrer" target="_blank">
+        <FontAwesomeIcon icon={["fab", "github"]} className='icon' />
+        </a>
+        <a href="https://www.linkedin.com/in/erica-morabito" rel="noreferrer" target="_blank">
+          <FontAwesomeIcon icon={["fab", "linkedin"]} className='icon' />
+        </a>
+      </div>
+    </div>
   )
 }
 
