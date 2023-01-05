@@ -1,0 +1,14 @@
+.App {
+  background-color: rgba(7,20,39,255);
+  color: rgba(75,200,176,255);
+  height: 100vh;
+}
+
+.header {
+  background-color: yellow;
+  height: fit-content
+}
+
+.nav-items {
+  text-decoration: none;
+}
