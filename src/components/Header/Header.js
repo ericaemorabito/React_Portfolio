@@ -1,6 +1,8 @@
 //import Navigation from "../Navigation";
 import './index.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+//! Update with completed resume
+import Resume from '../../assets/Example-resume.pdf'
 
 function Header() {
   return (
@@ -20,7 +22,9 @@ function Header() {
           <a href="/contact">Contact</a>
         </li>
         <li>
-          <button>Resume</button>
+          <a href={Resume} download="EricaMorabitoResume" rel="noreferrer" target="_blank">
+            <button>Resume</button>
+          </a>
         </li>
       </ul>
     </div>
