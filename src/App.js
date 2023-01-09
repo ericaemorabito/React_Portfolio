@@ -1,3 +1,6 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+// Components
 import Header from './components/Header/Header';
 import About from './components/About/About';
 import Project from './components/Project/Project';
@@ -12,17 +15,29 @@ import { faFolderOpen, faEarthAmericas, faMessage } from '@fortawesome/free-soli
 
 library.add(fab, faFolderOpen, faEarthAmericas, faMessage)
 
-
 // The App
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <About />
-      <Project />
-      <Contact />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <Routes>
+          <Route
+            path="/about"
+            element={<About />}>
+          </Route>
+          <Route
+            path="/project"
+            element={<Project />}>
+          </Route>
+          <Route
+            path="/contact"
+            element={<Contact />}>
+          </Route>
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
