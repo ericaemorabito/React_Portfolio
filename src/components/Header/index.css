@@ -27,16 +27,18 @@ li {
   padding: 10px;
 }
 
-span {
+/* About, Project, Contact in Nav */
+a {
+  text-decoration: none;
   padding: 10px;
   color: var(--blue-text);
 }
 
-span:hover {
+a:hover {
   color: var(--green-text);
 }
 
-span:active {
+a:active {
   color: var(--green-text);
   font-weight: bold;
 }

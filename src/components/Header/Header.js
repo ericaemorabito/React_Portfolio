@@ -9,15 +9,15 @@ function Header() {
       <ul className='nav-items'>
         <li>
           <FontAwesomeIcon icon="earth-americas" />
-          <a href="/about"><span>About</span></a>
+          <a href="/about">About</a>
         </li>
         <li>
           <FontAwesomeIcon icon="folder-open" />
-          <a href="/project"><span>Projects</span></a>
+          <a href="/projects">Projects</a>
         </li>
         <li>
           <FontAwesomeIcon icon="message" />
-          <a href="/contact"><span>Contact</span></a>
+          <a href="/contact">Contact</a>
         </li>
         <li>
           <button>Resume</button>
