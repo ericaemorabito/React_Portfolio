@@ -10,7 +10,7 @@ function Contact() {
       </p>
       <p>
         Feel free to reach out to me.
-        I look forwarded to connecting.
+        I look forward to connecting.
       </p>
       <a href="mailto:ericaemorabito@gmail.com"><button id="email-btn">Email</button></a>
     </div>

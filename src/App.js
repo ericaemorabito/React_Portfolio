@@ -6,6 +6,7 @@ import About from './components/About/About';
 import Project from './components/Project/Project';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import Home from './components/Home/Home';
 import './App.css';
 
 // Importing the icons
@@ -22,6 +23,10 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
+          <Route
+            path="/"
+            element={<Home />}>
+          </Route>
           <Route
             path="/about"
             element={<About />}>

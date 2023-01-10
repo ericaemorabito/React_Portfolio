@@ -1,0 +1,27 @@
+#home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 100px;
+}
+
+#home-hello {
+  color: var(--green-text);
+  font-size: 30px;
+  margin: 30px 30px 20px 30px;
+}
+
+#home-name {
+  color: var(--blue-text);
+  font-size: 80px;
+  margin: 0px 30px 10px 30px;
+}
+
+#home-job {
+  font-size: 55px;
+  margin: 0px 30px 25px 30px;
+}
+
+#home-description {
+  margin: 0px 30px 10px 30px;
+}
