@@ -1,20 +1,20 @@
 .about-me {
   display: flex;
   align-items: center;
-  margin-top: 100px;
+  margin: 100px 50px 0px 0px;
+ }
+
+#about-me-title {
+  color: var(--blue-text);
+  font-size: 50px;
+  margin: 0px;
 }
 
 .about-me-text {
+  font-size: 18px;
   width: 50%;
   margin-left: 25px;
   margin-right: 40px;
-}
-
-h2 {
-  color: var(--blue-text);
-}
-
-p {
   color: var(--grey-text);
 }
 
@@ -23,6 +23,8 @@ ul {
 }
 
 .tech-list {
+  color: var(--green-text);
+  font-style: italic;
   margin-left: 0px;
 }
 
@@ -35,6 +37,10 @@ ul {
 }
 
 img {
-  height: 250px;
-  width: 190px
+  height: 300px;
+  width: 230px;
+}
+
+img:hover {
+  filter: blur(20px);
 }

@@ -1,16 +1,15 @@
 :root {
   --dark-blue-background: #081426;
   --green-text: #60ffd9;;
-  /* --green-text: rgba(75,200,176,255); */
   --dark-navy: #0e1b33;
-  --faded-green: rgba(75,200,176,255, 0.5);
   --blue-text: #b0cdf1;
   --grey-text: #a9a297;
+  --pink-text: #fb36cb;
 }
 
 .App {
-  background-color: rgba(7,20,39,255);
-  color: rgba(75,200,176,255);
+  background-color: var(--dark-blue-background);
+  color: var(--green-text);
   height: 100vh;
 }
 

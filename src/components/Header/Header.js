@@ -7,7 +7,7 @@ import Resume from '../../assets/Example-resume.pdf'
 function Header() {
   return (
     <div className='header'>
-      <p className='header-name'>Erica Morabito</p>
+      <a href="/" className='header-name'>Erica Morabito</a>
       <ul className='nav-items'>
         <li>
           <FontAwesomeIcon icon="earth-americas" />
