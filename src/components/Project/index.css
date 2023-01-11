@@ -12,33 +12,60 @@
 }
 
 .project-card {
-  background-color: var(--grey-text);
-  margin: 20px;
-  padding: 20px;
-  height: fit-content;
-  width: 20%;
-  text-align: center;
-
-  /* background-image: url('../../assets/images/tastemakers.png');
   height: 200px;
-  width: 300px;*/
+  width: 350px;
+  margin: 20px;
+  padding: 0px;
+  background-color: var(--blue-text);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 } 
+
+/* Text in Project Cards */
+.project-title,
+.project-description,
+.project-link {
+  color: var(--dark-blue-background);
+  display: none;
+  margin: 4px;
+}
 
 .project-title {
   font-size: 25px;
 }
 
+.project-description {
+  padding-bottom: 10px;
+}
+
+.project-link {
+  padding: 3px;
+}
+
 .project-image {
-  height:fit-content;
-  width: 20%;
+  /* display: none; */
+  height: 200px;
+  width: 350px;
+  z-index: 2;
 }
 
-/* Hover over the .project-card <div> -->  
-  - the title, description, deployed & github link --> transition in from top
-  - add color background to div --> transitioned in from top
+/* Hover effects*/
 
-
-  .project-card {
+/* hide image */
+.project-card:hover .project-image{
+  display: none;
 }
 
-*/
+/*show description*/
+.project-card:hover 
+.project-title {
+  display: block;
+}
+
+.project-card:hover
+.project-description,
+ .project-link {
+  display: inline;
+}
