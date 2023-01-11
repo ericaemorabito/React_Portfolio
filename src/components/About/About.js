@@ -7,7 +7,7 @@ function About() {
     <div className='about-me'>
       <div className='about-me-image-icons'>
         <div id="profile-pic-area">
-          <img src={profilePic} alt='Erica Morabito'></img>
+          <img id="profile-pic" src={profilePic} alt='Erica Morabito'></img>
         </div>
         {/* <div>
           <a href="https://github.com/ericaemorabito" rel="noreferrer" target="_blank">

@@ -37,13 +37,13 @@
   font-style: italic;
 }
 
-img {
+#profile-pic {
   height: 300px;
   width: 230px;
   position: fixed;
   left: 31%;
 }
 
-img:hover {
+#profile-pic:hover {
   border: 2px solid; 
 }
