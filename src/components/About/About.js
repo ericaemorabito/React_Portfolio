@@ -1,23 +1,22 @@
 import './index.css'
 import profilePic from '../../assets/images/profile-pic.jpeg'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function About() {
   return (
     <div className='about-me'>
-
       <div className='about-me-image-icons'>
-        <div>
+        <div id="profile-pic-area">
           <img src={profilePic} alt='Erica Morabito'></img>
         </div>
-        <div>
+        {/* <div>
           <a href="https://github.com/ericaemorabito" rel="noreferrer" target="_blank">
             <FontAwesomeIcon icon={["fab", "github"]} className='icon' />
           </a>
           <a href="https://www.linkedin.com/in/erica-morabito" rel="noreferrer" target="_blank">
             <FontAwesomeIcon icon={["fab", "linkedin"]} className='icon' />
           </a>
-        </div>
+        </div> */}
       </div>
 
       <div className='about-me-text'>

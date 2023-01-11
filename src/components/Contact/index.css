@@ -7,15 +7,16 @@
   margin: 100px 50px 50px 0px;
 }
 
-#email-btn {
-  margin-top: 15px;
+h2 {
+  font-size: 45px;
 }
-/* .contact-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  width: 450px;
-  border: solid 1px;
-} */
+
+#email-btn {
+  font-size: 18px;
+  margin-top: 18px;
+}
+
+p {
+  color: var(--blue-text);
+  font-size: 18px;
+}

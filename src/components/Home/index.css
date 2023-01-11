@@ -24,4 +24,5 @@
 
 #home-description {
   margin: 0px 30px 10px 30px;
+  color: var(--grey-text);
 }
