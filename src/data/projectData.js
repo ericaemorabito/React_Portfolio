@@ -1,4 +1,5 @@
 import tastemakers from '../assets/images/tastemakers.png';
+import picture from '../assets/images/code-quiz.png';
 
 export const projectData = [
   { id: 1, 
@@ -13,7 +14,7 @@ export const projectData = [
     description: 'search recipes based on preferences', 
     deployed: 'www.google.com',
     github: '',
-    image: {tastemakers}
+    image: {picture}
   },
   { id: 3, 
     title: 'Tastemakers', 

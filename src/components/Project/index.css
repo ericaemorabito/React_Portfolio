@@ -27,3 +27,18 @@
 .project-title {
   font-size: 25px;
 }
+
+.project-image {
+  height:fit-content;
+  width: 20%;
+}
+
+/* Hover over the .project-card <div> -->  
+  - the title, description, deployed & github link --> transition in from top
+  - add color background to div --> transitioned in from top
+
+
+  .project-card {
+}
+
+*/
