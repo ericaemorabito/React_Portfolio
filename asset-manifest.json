@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dea39083.css",
+    "main.js": "/static/js/main.d7d4fbfd.js",
+    "static/js/787.d9d5075d.chunk.js": "/static/js/787.d9d5075d.chunk.js",
+    "static/media/tastemakers.png": "/static/media/tastemakers.added2e5fa758c492cd5.png",
+    "static/media/weather.png": "/static/media/weather.529d5882da3d718f3734.png",
+    "static/media/profile-pic.jpeg": "/static/media/profile-pic.cefd93dd9ae0ab2a85fc.jpeg",
+    "static/media/social.png": "/static/media/social.2175e46046a1ab00ebf1.png",
+    "static/media/Erica_Morabito_JP.pdf": "/static/media/Erica_Morabito_JP.77f7c642620f50f40f29.pdf",
+    "static/media/code-quiz.png": "/static/media/code-quiz.7171d1c3096c538f9d04.png",
+    "static/media/express.png": "/static/media/express.d5d705acf81d944f1211.png",
+    "index.html": "/index.html",
+    "main.dea39083.css.map": "/static/css/main.dea39083.css.map",
+    "main.d7d4fbfd.js.map": "/static/js/main.d7d4fbfd.js.map",
+    "787.d9d5075d.chunk.js.map": "/static/js/787.d9d5075d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dea39083.css",
+    "static/js/main.d7d4fbfd.js"
+  ]
+}
