@@ -3,6 +3,19 @@
   width: 230px;
 }
 
+.tech-list {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.tech {
+  color: var(--green-text);
+  padding-left: 0px;
+  margin: 0px 10px 10px 0px;
+  font-style: italic;
+}
+
 /* Keep above stuff until after bootstraping*/
 
 /* .about-me {
@@ -31,7 +44,7 @@
   padding: 0px;
 }
 
-.tech-list {
+.tech {
   color: var(--green-text);
   padding-left: 0px;
   margin: 0px 10px 10px 0px;

@@ -14,15 +14,6 @@ function Contact() {
       </p>
       <a href="mailto:ericaemorabito@gmail.com"><button id="email-btn">Email</button></a>
     </div>
-
-    // <div className="contact-page">
-    //   <form className="contact-form">
-    //     <label for="email">Email:</label>
-    //     <input type="text" name="email"></input><br></br>
-    //     <label for="message">Message:</label>
-    //     <input type="text" name="message"></input>
-    //   </form>
-    // </div>
   )
 }
 

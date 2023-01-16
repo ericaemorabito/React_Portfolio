@@ -10,15 +10,17 @@ function ProjectList () {
   })
 
   return (
-    <div className="project-page">
+    <div className="project-page mt-5">
+
       <div className="project-page-title">
         <h2>My Work</h2>
-        <p>Some of the things I've built...</p>
       </div>
-      <div className="project-grid-section">
+
+      <div className="project-grid-section mt-5">
         {/* Return the <div> created in each Project */}
         {projectsList}
       </div>
+      
     </div>
   )
 }

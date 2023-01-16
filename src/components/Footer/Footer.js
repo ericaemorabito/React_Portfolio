@@ -5,7 +5,6 @@ function Footer() {
 
   return (
     <div className='footer'>
-      <p>Designed & Built by Erica Morabito</p>
       <div className='footer-icons'>
         <a href="https://github.com/ericaemorabito"rel="noreferrer" target="_blank">
         <FontAwesomeIcon icon={["fab", "github"]} className='icon' />

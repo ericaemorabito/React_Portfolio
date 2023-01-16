@@ -13,7 +13,11 @@ h2 {
 
 #email-btn {
   font-size: 18px;
-  margin-top: 18px;
+  background-color: var(--dark-blue-background);
+  color: var(--blue-text);
+  border: 1px solid var(--green-text);
+  border-radius: 10%;
+  padding: 10px;
 }
 
 p {

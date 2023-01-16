@@ -48,13 +48,15 @@
   /* display: none; */
   height: 200px;
   width: 350px;
-  z-index: 2;
+  position: relative;
+  top: 40px;
 }
 
 /* Hover effects*/
 
 /* hide image */
-.project-card:hover .project-image{
+.project-card:hover 
+.project-image{
   display: none;
 }
 

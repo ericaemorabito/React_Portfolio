@@ -1,8 +1,50 @@
-.header {
+#nav-bar {
+  background-color: var(--green-text);
+  color: var(--dark-blue-background);
+  height: 80px;
+  font-size: 15px;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.navbar-nav {
+  position: fixed;
+  right: 20px;
+  color: var(--dark-blue-background);
+}
+
+.nav-link {
+  font-size: larger;
+  margin-right: 15px;
+  color: var(--dark-blue-background);
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+.navbar-brand:hover {
+  text-decoration: underline;
+}
+
+#resume-btn {
+  background-color: var(--dark-blue-background);
+  color: var(--blue-text);
+  border: 1px solid var(--green-text);
+  border-radius: 10%;
+  padding: 10px;
+}
+
+#resume-btn:hover {
+  text-decoration: underline;
+}
+
+/* .header {
   height: fit-content;
   display: flex;
   font-family: monospace;
-  /* box-shadow: h-offset v-offset blur spread color; */
   box-shadow: 0px 5px 20px #060f1c;
 }
 
@@ -14,7 +56,6 @@
   font-size: 20px;
 }
 
-/* Nav Bar Items */
 .nav-items {
   font-size: 16px;
   position: fixed;
@@ -27,7 +68,6 @@ li {
   padding: 10px;
 }
 
-/* About, Project, Contact in Nav */
 a {
   text-decoration: none;
   padding: 10px;
@@ -43,8 +83,6 @@ a:active {
   font-weight: bold;
 }
 
-
-/* Resume Button */
 button {
   font-family: monospace;
   font-size: 16px;
@@ -53,7 +91,6 @@ button {
   border: 1px solid var(--green-text);
   border-radius: 10%;
   padding: 10px;
-
 }
 
 button:hover {
@@ -67,4 +104,4 @@ button:hover {
     align-items: center;
     justify-content: center;
   }
-}
+} */

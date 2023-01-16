@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: var(--blue-text);
+  color: var(--grey-text);
   height: 115px;
   position: fixed;
   left: 0;
@@ -18,9 +18,9 @@
 
 .icon:hover
  {
-  color: var(--green-text);
+  color: var(--green-text)
 }
 
 .icon:visited {
-  color: var(--blue-text);
+  color: var(--grey-text);
 }
