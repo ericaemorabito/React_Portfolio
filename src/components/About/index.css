@@ -1,8 +1,11 @@
-/*TODO: responsive design */
+#profile-pic {
+  height: 300px;
+  width: 230px;
+}
 
-.about-me {
-  /* display: flex;
-  align-items: center; */
+/* Keep above stuff until after bootstraping*/
+
+/* .about-me {
   margin: 100px 50px 0px 0px;
  }
 
@@ -22,14 +25,12 @@
   height: 100vh;
 }
 
-/*UL List */
 .about-me-tech-list {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
 }
 
-/*Each list item*/
 .tech-list {
   color: var(--green-text);
   padding-left: 0px;
@@ -37,13 +38,6 @@
   font-style: italic;
 }
 
-#profile-pic {
-  height: 300px;
-  width: 230px;
-  position: fixed;
-  left: 31%;
-}
-
 #profile-pic:hover {
   border: 2px solid; 
-}
+} */
